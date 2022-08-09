@@ -1,0 +1,126 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+}
+.Main{
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0, 0, 0, .5)50%), url("2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  align-items:center;
+  justify-content:center;
+ 
+}
+.naBar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.Icon{
+  width: 400px;
+  float: left;
+  height: 70px;
+
+}
+
+.LOGO{
+  color: orange;
+  font-size: 60px;
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+
+.loginFORM{
+  width: 250px;
+  height: 300px;
+  background:linear-gradient(to top,rgba(0, 0, 0,0.8)50%,rgba(0, 0, 0, 0.8)50%);
+  position:relative;
+  top: 180px;
+  left: 900px;
+  border-radius: 6px;
+  padding: 60px;
+
+}
+.loginFORM h2{
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  color: orange;
+  background-color: none;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 5px;
+
+
+}
+
+.loginFORM input{
+  width: 150pxpx;
+  height: 15px;
+  background-color: transparent;
+  border-bottom: 2px solid orange;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: aliceblue;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  text-align: center;
+
+}
+
+.loginFORM input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: grey;
+
+}
+.btn{
+  width: 240px;
+  height:40px ;
+  background: orange;
+  border: none; 
+  border-radius: 10px; 
+  margin-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  color: aliceblue;
+  transition: .4s ease;
+  text-align: center;
+}
+.btn:hover{
+  background: aliceblue;
+  color: orange;
+}
+.btn a{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.loginFORM.link{
+ 
+  font-size: 20px;
+  padding-top: 25px;
+  text-align: center;
+  color: aliceblue;
+
+}
+ .loginFORM .link a{
+   text-decoration: none;
+   color: orange;
+ }
+
+ a:hover
+{
+  background: aliceblue;
+  color: orange;
+}
